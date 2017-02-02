@@ -16,7 +16,7 @@ yarn start
 Once you're ready to deploy, run:
 
 ``` shell
-yarn build // or npm run build
+yarn build
 surge -p build
 ```
 
