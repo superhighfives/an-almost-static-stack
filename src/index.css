@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+* + * {
+  margin-top: 1rem;
+}

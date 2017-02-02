@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5",
+    "standard": "^8.6.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-helmet": "^4.0.0",
+    "react-router-dom": "next",
+    "react-snapshot": "^1.0.4",
+    "styled-components": "^1.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && react-snapshot",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
