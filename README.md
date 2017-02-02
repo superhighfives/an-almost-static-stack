@@ -25,6 +25,6 @@ If you're not into [Yarn](https://yarnpkg.com/), `npm install`, `npm start` and 
 
 ## create-react-app
 
-It was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 You can find more information [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
