@@ -9,8 +9,8 @@ This repo serves as a companion to the [tutorial of the same name, over on Mediu
 ``` shell
 git clone https://github.com/superhighfives/an-almost-static-stack.git
 cd an-almost-static-stack
-yarn install // Don't have yarn? npm install works too
-yarn start // Or npm start
+yarn install
+yarn start
 ```
 
 Once you're ready to deploy, run:
@@ -19,7 +19,10 @@ Once you're ready to deploy, run:
 yarn build // or npm run build
 surge -p build
 ```
+
 Voila!
+
+If you're not into [Yarn](https://yarnpkg.com/), `npm install`, `npm start` and `npm run build` all work as well.
 
 ## create-react-app
 
