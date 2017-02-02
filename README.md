@@ -13,16 +13,15 @@ yarn install
 yarn start
 ```
 
-Once you're ready to deploy, run:
+Once you're ready to deploy to [Surge](https://surge.sh), run:
 
 ``` shell
-yarn build
-surge -p build
+yarn deploy
 ```
 
 Voila!
 
-If you're not into [Yarn](https://yarnpkg.com/), `npm install`, `npm start` and `npm run build` all work as well.
+If you're not into [Yarn](https://yarnpkg.com/), `npm install`, `npm start` and `npm run deploy` all work as well.
 
 ## create-react-app
 
